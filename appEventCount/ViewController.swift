@@ -27,11 +27,16 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
     
     func updateView() {
-        
+        didFinishLaunching.text = "didFinishLaunchCount: \(didFinishLaunchingCOUNT)"
+        willResignActive.text = "willResignActive: \(willResignActiveCOUNT)"
+        didEnterBackground.text = "didEnterBackground: \(didEnterBackgroundCOUNT)"
+        willEnterForeground.text = "willEnterForeground: \(willEnterForegroundCOUNT)"
+        didBecomeActive.text = "didBecomeActive: \(didBecomeActiveCOUNT)"
+        willTerminate.text = "willTerminate: \(willTerminate)"
     }
 
 
