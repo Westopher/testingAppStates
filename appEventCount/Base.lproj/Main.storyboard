@@ -67,6 +67,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="didBecomeActive" destination="06k-Aa-wbA" id="aXw-09-mth"/>
+                        <outlet property="didEnterBackground" destination="fdf-fq-0aT" id="3mu-fh-YHY"/>
+                        <outlet property="didFinishLaunching" destination="T2X-Ue-oNz" id="bhv-F0-ngK"/>
+                        <outlet property="willEnterForeground" destination="bAJ-t0-iOd" id="rCR-fx-UDT"/>
+                        <outlet property="willResignActive" destination="egz-1m-ZWw" id="jqZ-3J-4gl"/>
+                        <outlet property="willTerminate" destination="iWg-yJ-LGV" id="js7-Qf-vTR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
