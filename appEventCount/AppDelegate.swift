@@ -13,30 +13,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+//this
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         print("did finish launching")
         return true
     }
-
+//this
     func applicationWillResignActive(_ application: UIApplication) {
        print("will resign active")
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
-       
+       print("did enter background")
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
-      
+      print("will enter foreground")
     }
-
+//and this are the ones you want to focus on at the now
     func applicationDidBecomeActive(_ application: UIApplication) {
-     
+     print("did becomes active")
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
-      
+      print("will terminate")
     }
 
 
